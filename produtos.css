@@ -1,0 +1,64 @@
+*{
+    margin: 0;   
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+  
+   }
+body{
+    width: 100%;
+}
+.main{
+    margin: 20px;
+}
+   
+#cabecalho{
+   background: #19195a;
+   height: 110PX;
+}
+   
+   
+#titulo{
+    font-family: 'GFS Didot', serif;
+       font-size: 45px;
+       color:white;
+    margin-top: 25px;
+   }
+   
+#menu ul {
+    display: flex;
+    justify-content: end;
+    padding-top: 50px;
+}
+
+#menu ul li {
+    padding-left: 50px;
+}
+
+#menu ul li a {
+    color:white;
+}
+   
+footer{
+       height: 158px;
+       background-color: #1f2944;
+       color:white;
+       padding-top: 30px;
+       padding-bottom: 32px;
+}
+
+.card-img-top{
+    height: 400px;
+    width: 30%;
+    display: flex;
+    padding-top: 5%;
+}
+   
+h5{
+    text-align: center;
+}
+   
+P{
+    text-align: justify;
+}
