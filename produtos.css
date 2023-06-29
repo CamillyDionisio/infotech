@@ -15,7 +15,7 @@ body{
    
 #cabecalho{
    background: #19195a;
-   height: 110PX;
+   height: 100PX;
 }
    
    
@@ -23,7 +23,7 @@ body{
     font-family: 'GFS Didot', serif;
        font-size: 45px;
        color:white;
-    margin-top: 25px;
+    margin-top: 20px;
    }
    
 #menu ul {
@@ -33,7 +33,7 @@ body{
 }
 
 #menu ul li {
-    padding-left: 50px;
+    padding-left: 40px;
 }
 
 #menu ul li a {
@@ -62,3 +62,4 @@ h5{
 P{
     text-align: justify;
 }
+

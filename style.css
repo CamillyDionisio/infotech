@@ -10,15 +10,19 @@
    
 #cabecalho{
    background: #19195a;
-   height: 110PX;
+   height: 100px;
+   
  
 }
    
+#secao{
+    padding-top: 100px;
+}
 #titulo{
     font-family: 'GFS Didot', serif;
     font-size: 45px;
     color:white;
-    margin-top: 25px;
+    margin-top: 20px;
 }
 
 h3{
@@ -31,7 +35,7 @@ h3{
 }
 
 #menu ul li {
-    padding-left: 50px;
+    padding-left: 40px;
 }
 
 #menu ul li a {
@@ -44,6 +48,10 @@ section p{
 
 main{
     text-align: justify;
+}
+
+.rede{
+    color: white;
 }
 footer{
        height: 158px;

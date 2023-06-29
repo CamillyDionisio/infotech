@@ -8,14 +8,18 @@
    
 #cabecalho{
    background: #19195a;
-   height: 110PX;
+   height: 100PX;
    }
+
+#secao{
+    padding-top: 100px;
+}
    
 #titulo{
     font-family: 'GFS Didot', serif;
        font-size: 45px;
        color:white;
-       margin-top: 25px;
+       margin-top: 20px;
 }
    
 #menu ul {
@@ -25,7 +29,7 @@
 }
 
 #menu ul li {
-    padding-left: 50px;
+    padding-left: 40px;
 }
 
 #menu ul li a {
@@ -48,3 +52,18 @@ footer{
     text-align: justify;
 }
 
+.rede{
+    color: white;
+}
+
+#input{
+    padding-top: 30px;
+    margin-left: 77px;
+}
+
+#enviar{
+    color: white;
+    background-color:#1f2944;
+    margin-left: 77px;
+    width: 290px;
+}
