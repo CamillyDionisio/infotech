@@ -35,7 +35,13 @@
 #menu ul li a {
     color:white;
 }
-   
+
+#menu a:hover {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #3dc8e8;
+    transition: background-color 1s;
+}
 footer{
        height: 158px;
        background-color: #c1aee2;
@@ -44,6 +50,9 @@ footer{
        padding-bottom: 32px;
 }
 
+img{
+    max-width: 100%;
+}
 #h3{
     text-align: center;
 }
@@ -78,4 +87,11 @@ footer{
 iframe{
     display: block;
     margin: auto;
+    max-width: 100%;
+}
+
+@media(Min-width: 498px)
+{
+    .img-bg{ display:block} 
+    .img-sm{ display:none;}
 }

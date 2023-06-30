@@ -45,6 +45,12 @@ body{
     color:white;
 }
 
+#menu a:hover {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #3dc8e8;
+    transition: background-color 1s;
+}
 .rede{
     color: white;
 }
