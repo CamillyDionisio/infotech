@@ -30,7 +30,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap" rel="stylesheet">
-<!-- simbólos do google-->
+
 </head>
 <body>
     <header id="cabecalho" class="fixed-top">
@@ -51,11 +51,13 @@
     </header>
 <br>
 <br>
+
+<!--contéudo principal-->
 <main id="secao">
     <section>
         <div class="container">
             <div class="row">
-                <img src="info.png" div class="col-lg-6" width="100%"/>
+                <img src="fale.svg" div class="col-lg-6" width="100%"/>
                     <div class="col-lg-6"> <h3>QUEM SOMOS NÓS?</h3>
                         <br>
             <p>A Empório Infotech é uma empresa jovem e promissora, estabelecida há menos de dois anos, com a missão de fornecer aos seus clientes produtos de qualidade excepcional. Especializada em notebooks, PCs e celulares, a Empório Infotech se destaca por sua dedicação em oferecer tecnologia de ponta e soluções inovadoras.</p>
@@ -68,23 +70,76 @@
         </div>
     </section>   
 <br>
-    <section>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <h3> DECLARAÇÕES INSTITUCIONAIS</h3>
-                    <BR>
-                <p><b>Missão:</b> A missão da Empório Infotech é fornecer aos nossos clientes produtos de qualidade excepcional, especializados em notebooks, PCs e celulares. Estamos comprometidos em oferecer tecnologia de ponta e soluções inovadoras, garantindo a satisfação de nossos clientes e superando suas expectativas. </p>
 
-                <p><b>Visão:</b> Nossa visão é ser reconhecida como líder no mercado de tecnologia, atendendo às necessidades dos clientes mais exigentes. Buscamos ser referência no fornecimento de dispositivos supervisados e de alto desempenho, estabelecendo parcerias com marcas renomadas e mantendo nosso estoque atualizado com as tendências mais recentes. Queremos ser conhecidos como a empresa que oferece produtos de qualidade superior e um serviço excepcional.</p>
+
+<div class="jumbotron">
+    <h1 class="display-6">Caros clientes!</h1>
+    <p class="lead">A seguir, compartilharemos nossas declarações institucionais. Se você deseja obter mais informações sobre o assunto, clique em "Saiba mais".</p>
+    <hr class="my-4">
+    <p>Tenha tranquilidade, pois as fontes que utilizamos são confíaveis.</p>
+    <a class="btn btn-primary btn-lg" id="leia" href="https://www.sebrae.com.br/Sebrae/Portal Sebrae/Anexos/ME_Missao-Visao-Valores.PDF" target="_blank" role="button">Saiba mais</a>
+  </div>
+
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+            
+                <br>
+                <h3> DECLARAÇÕES INSTITUCIONAIS</h3>
+                <br>
+                <div class="accordion" id="accordionExample">
+                    <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <h5 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <B>MISSÃO</B>
+                    </button>
+                    </h5>
+                </div>
+            
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <p><b>Missão:</b> A missão da Empório Infotech é fornecer aos nossos clientes produtos de qualidade excepcional, especializados em notebooks, PCs e celulares. Estamos comprometidos em oferecer tecnologia de ponta e soluções inovadoras, garantindo a satisfação de nossos clientes e superando suas expectativas. </p>
+                    </div>
+                </div>
+                </div>
+                <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <B>VISÃO</B>
+                    </button>
+                    </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <p><b>Visão:</b> Nossa visão é ser reconhecida como líder no mercado de tecnologia, atendendo às necessidades dos clientes mais exigentes. Buscamos ser referência no fornecimento de dispositivos supervisados e de alto desempenho, estabelecendo parcerias com marcas renomadas e mantendo nosso estoque atualizado com as tendências mais recentes. Queremos ser conhecidos como a empresa que oferece produtos de qualidade superior e um serviço excepcional.</p>
                     
-                <p><b>Valores:</b> Inovação: Valorizamos a inovação como um impulsionador do nosso crescimento. Estamos constantemente atualizando nossa seleção de produtos para oferecer as tecnologias mais avançadas e soluções inovadoras, proporcionando aos nossos clientes acesso às tendências do mercado.</p>
-            </div>
-            <img src="m.png" class="col-lg-6" height="550px"/>
-            </div>
+                    </div>
+                </div>
+                </div>
+                <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <B>VALORES</B>
+                    </button>
+                    </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <p><b>Valores:</b> Inovação: Valorizamos a inovação como um impulsionador do nosso crescimento. Estamos constantemente atualizando nossa seleção de produtos para oferecer as tecnologias mais avançadas e soluções inovadoras, proporcionando aos nossos clientes acesso às tendências do mercado.</p>
+                        </div>
+                    
+                 </div>
+             </div>
         </div>
     </section>
 </main>
+
+<!-- rodapé-->
 
 <footer>
     <div class="container">
@@ -97,7 +152,8 @@
          <a href="https://pt-br.facebook.com/" target="_blank"><img src="face.png" class="rede" alt="logo do facebook" width="35px"/> </a>
          <a href="https://www.linkedin.com/authwall?trk=qf&original_referer=https://www.linkedin.com/home&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fhome%3Foriginal_referer%3Dhttps%253A%252F%252Fwww.linkedin.com%252Fmynetwork%252F" target="_blank"><img src="lin.png" class="rede" alt="logo do linkedin" width="35px"></a> </div>
 
-        <div class="col-lg-3"> 
+         <br>
+         <div class="col-lg-3"> 
             <p>SUPORTE</a>
             <a href="#" class="rede"><p>SAC</a></p>
             <a href="#" class="rede"><p>FAC</a></p> 

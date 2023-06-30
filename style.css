@@ -7,17 +7,17 @@
    
    }
 
-   
+
 #cabecalho{
-   background: #19195a;
-   height: 100px;
-   
+   background: #9dddd0;
+   height: 100PX;
  
 }
    
 #secao{
-    padding-top: 100px;
+    padding-top:100px ;
 }
+
 #titulo{
     font-family: 'GFS Didot', serif;
     font-size: 45px;
@@ -27,6 +27,8 @@
 
 h3{
     text-align: center;
+
+
 }
 #menu ul {
     display: flex;
@@ -48,14 +50,23 @@ section p{
 
 main{
     text-align: justify;
+    padding-bottom: 120px;
+}
+
+
+#leia{
+    background-color:#1f8976;
 }
 
 .rede{
     color: white;
 }
+
+
+
 footer{
        height: 158px;
-       background-color: #1f2944;
+       background-color: #c1aee2;
        color:white;
        padding-top: 30px;
        padding-bottom: 32px;
